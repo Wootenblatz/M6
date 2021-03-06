@@ -1,0 +1,23 @@
+
+# Offensive CD
+/qsequence Fire Elemental, Ascendance, Earth Elemental, Heroism
+
+# Defensive CD
+/qsequence Thunderstorm, Astral Shift, Spiritwalker's Grace, Healing Surge, Healing Surge
+
+# T2B2
+/cast  [@cursor,nochanneling] Earthquake
+# T1B6
+/cast [mod:alt] Earth Elemental; Lightning Bolt
+
+# T2B1
+/castsequence reset=target/combat/30 Icefury, Frost Shock, Frost Shock, Frost Shock, Frost Shock
+# T2B2
+/cast [@cursor,mod:alt,nochanneling] Vesper Totem; Echoing Shock
+# T2B3
+/castsequence reset=combat [nochanneling] Flame Shock, Earth Shock
+# T2B4
+/cast [nochanneling] Lava Burst
+# T2B6
+/cast [mod:alt] Fire Elemental; Lightning Bolt
+

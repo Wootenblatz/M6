@@ -1,0 +1,15 @@
+# Stun rotation
+/qsequence [@cursor] Capacitor Totem, Frost Shock, Earthbind Totem, Frost Shock, Lightning Bolt
+
+# Interrupt rotation
+/qsequence [@cursor] Wind Shear, Capacitor Totem, Earthbind Totem, Frost Shock, Lightning Bolt
+
+# Slow
+/qsequence [@cursor] Frost Shock, Frost Shock, Frost Shock, Earthbind Totem, Frost Shock
+
+# Cleanse; Purge
+/cast [@mouseover,exists,help,nodead][@target,exists,help,nodead][@focus,exists,help,nodead] Cleanse Spirit; Purge
+
+# Earth Shield; Hex
+/cast [@mouseover,exists,help,nodead][@target,exists,help,nodead][@focus,exists,help,nodead] Earth Shield; Hex
+

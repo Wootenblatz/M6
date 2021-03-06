@@ -1,0 +1,2 @@
+/cast [@cursor,nochanneling] Binding Shot
+/cast [@cursor,nochanneling] Resonating Arrow

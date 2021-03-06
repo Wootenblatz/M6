@@ -1,0 +1,24 @@
+# DPST1 B1-B6
+/cast [nochanneling] Feral Spirit
+/cast [@cursor] Vesper Totem
+/qsequence [nochanneling] Lightning Bolt, Chain Lightning
+
+# DPST2 B1-B6
+/cast [nochanneling] Feral Lunge
+/cast [nochanneling] Lava Lash
+/cast [nochanneling] Flame Shock
+/cast [nochanneling] Crash Lightning
+/cast [nochanneling] Stormstrike
+/cast [nochanneling] Lightning Bolt
+
+# Buff
+/qsequence [@player] Earth Shield, Windfury Weapon, Flametongue Weapon
+
+# Heal
+/qsequence [@mouseover,nochanneling][@player,nochanneling] Healing Stream Totem, Healing Surge, Chain Heal, Gift of the Naaru
+
+# Offensive CD - On multi-enh dps comps, alter these so all three happen each time we press a key
+/qsequence [@player] Earth Elemental, Windfury Totem, Tremor Totem
+
+# Defensive CD
+/qsequence [@player] Astral Shift, Earthbind Totem, Spirit Walk

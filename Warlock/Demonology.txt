@@ -1,0 +1,8 @@
+/cast [mod:alt,nochanneling] Demonbolt; [nochanneling] Soul Strike
+/qsequence [nochanneling] Covenant Ability, Felstorm
+/cast [mod:alt,nochanneling] Demonbolt; Hand of Gul'dan
+/qsequence Demonic Strength, Grimoire: Felguard, Summon Demonic Tyrant
+/cast [mod:alt,nochanneling] Shadow Bolt; Demonic Strength
+/cast [mod:alt,nochanneling] Shadow Bolt; Grimoire: Felguard
+/cast [mod:alt,nochanneling] Shadow Bolt; Summon Demonic Tyrant
+/qsequence [nochanneling] Soul Strike, Call Dreadstalkers, Felstorm, Shadow Bolt, Hand of Gul'dan, Covenant Ability, Demonbolt

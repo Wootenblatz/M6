@@ -1,0 +1,23 @@
+# DFTB2
+/cast [nochanneling] Shadow Blades
+# DFTB3
+/cast [nochanneling] Echoing Reprimand
+# DFTB5
+/cast [nochanneling] Marked for Death
+# DFTB6
+/qsequence [nochanneling] Rupture, Eviscerate, Eviscerate, Eviscerate
+
+# DSTB1
+/castsequence !stealth, shadowstrike
+# DSTB2
+/qsequence Symbols of Death, Shadow Dance
+# DSTB4
+/castsequence Shadowstrike, Eviscerate
+# DSTB5
+/qsequence Backstab, Backstab, Eviscerate
+# DSTB6
+/cast [nochanneling] Eviscerate
+
+# AOE - Key: W 
+/qsequence [nochanneling] Shuriken Storm, Black Powder
+

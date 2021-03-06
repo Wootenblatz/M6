@@ -1,0 +1,13 @@
+# DST
+/castsequence reset=target/combat [nochanneling] Pyroblast, Fire Blast
+/cast [nochanneling] Fire Blast
+/cast [nochanneling] Phoenix Flames
+/castsequence reset=target/combat/20 [nochanneling] Blazing Barrier, Pyroblast, Pyroblast, Pyroblast
+/qsequence [nochanneling] Fireball, Scorch
+
+# Main action bar (not DPS) for spamming procs in 5 mage group
+/assist focus
+/script SetView(3); SetView(3)
+/cast [nochanneling] Pyroblast
+
+/cast [@cursor,nochanneling] Flamestrike

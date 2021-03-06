@@ -1,0 +1,13 @@
+/cast [@cursor,nochanneling] Shadowfury
+/cast [mod:shift]Curse of Tongues;[mod:alt]Curse of Exhaustion;Curse of Weakness
+/cast [mod]Demonic Circle; Demonic Circle: Teleport
+/cast [@cursor,nochanneling] Demonic Gateway
+
+# Defensive CD
+/qsequence Healthstone, Unending Resolve
+
+# Stun
+/qsequence Incinerate, Shadowfury, Incinerate, Incinerate, Incinerate 
+
+
+/cast [mod:shift] Create Soulwell; [@mouseover,help,nodead][@focus,exists,help,nodead][@target,exists,help,nodead][] Soulstone

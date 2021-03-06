@@ -1,0 +1,20 @@
+# DPS Tier 1
+/cast [@player,nochanneling] Fiery Brand
+/cast Fel Devastation
+
+# DPS Tier 2
+/castsequence reset=target/combat Immolation Aura, Throw Glaive 
+/cast [@player,nochanneling] Infernal Strike
+/cast [nochanneling] Demon Spikes
+/qsequence [nochanneling] Fracture, Soul Cleave
+/cast [nochanneling] Throw Glaive
+
+# Rotation for regular action bar
+/qsequence [@player]  Infernal Strike, Demon Spikes, Immolation Aura, Fiery Brand, Sigil of Flame, Fracture, Soul Cleave
+
+# Interrupt
+/qsequence [@cursor] Disrupt, Throw Glaive, Fracture, Soul Cleave, Sigil of Silence
+# Stun
+/qsequence [@cursor] Sigil of Misery, Throw Glaive, Fracture, Throw Glaive, Soul Cleave
+# Slow (or close enough)
+/qsequence Imprison, Throw Glaive, Fracture, Soul Cleave, Throw Glaive

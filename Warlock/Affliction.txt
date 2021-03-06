@@ -1,0 +1,28 @@
+/cast [mod:alt] Summon Darkglare; [nochanneling] Malefic Rapture
+/cast [nochanneling] Phantom Singularity
+
+/castsequence reset=target/combat Siphon Life, Corruption, Agony, Unstable Affliction, Covenant Ability,  Drain Soul
+/cast [nochanneling] Haunt
+/qsequence covenant ability, drain soul
+
+
+
+# Int4/Stun4
+/qsequence Siphon Life, Corruption, Agony, Spell lock, Unstable Affliction
+/qsequence [@cursor] Siphon Life, Corruption, Agony, Shadowfury, Unstable Affliction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Full rotation
+/qsequence haunt, siphon life, corruption, agony, unstable affliction, phantom singularity, malefic rapture, malefic rapture, covenant ability, drain soul

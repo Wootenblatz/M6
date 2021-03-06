@@ -1,0 +1,36 @@
+# Talents 3303012
+# These are not statistically the best talents for either casting patchwerk or hectic add cleave
+# They allow for more abilities so I have something to cast almost all the time
+
+# DFT
+/cast [nochanneling] Havoc
+/cast [nochanneling] Scouring Tithe
+/cast [@cursor,nochanneling] Summon Infernal
+/cast [nochanneling] ShadowBurn
+/cast [nochanneling] Incinerate
+
+# DST
+# Chaos bolt is in a qsequence with Conflagrate and ShadowBurn in an attempt 
+# to avoid burning through charges unecessarily.
+# Chaos Bolt is on it's own button to make sure we still try to cast it
+# even when Conflagrate is up on it's qsequence but unavailable
+
+/cast [nochanneling] Soul fire
+/castsequence [@cursor] reset=target/combat/30  Cataclysm, Channel Demonfire
+/qsequence [nochanneling] Conflagrate, Chaos Bolt
+/cast [nochanneling] Chaos Bolt
+/qsequence [nochanneling] ShadowBurn, Chaos Bolt
+/cast [nochanneling] Incinerate
+
+
+
+# Others
+/cast [@cursor,nochanneling] Rain of Fire
+# --- Full rotation for regular action bar key presses
+/qsequence [@cursor] Soul Fire, Cataclysm, Channel Demonfire, Conflagrate, Chaos Bolt, Conflagrate, Chaos Bolt, Incinerate, Incinerate, Shadow Burn
+# Felhunter interrupt
+/qsequence Incinerate, Spell lock, Incinerate, Incinerate, Incinerate 
+# Stun
+/qsequence Incinerate, Shadowfury, Incinerate, Incinerate, Incinerate 
+# HoT
+/qsequence Incinerate, Howl of Terror, Incinerate, Incinerate, Incinerate 

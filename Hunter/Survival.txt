@@ -1,0 +1,17 @@
+# DFT
+/cast [@cursor,nochanneling] Resonating Arrow
+/cast [nochanneling] Harpoon
+/cast [@cursor,nochanneling] Binding Shot
+/cast [nochanneling] Coordinated Assault
+
+# DST 
+/cast [nochanneling] Flanking Strike
+/cast [nochanneling] Chakrams
+/cast [nochanneling] Wildfire Bomb
+/cast [nochanneling] Carve
+/qsequence [nochanneling] Kill Command, Serpent Sting, Raptor Strike
+/qsequence [nochanneling]  Serpent Sting, Raptor Strike
+
+
+# Interrupt
+/qsequence Harpoon, Muzzle, Serpent Sting, Raptor Strike, Serpent Sting

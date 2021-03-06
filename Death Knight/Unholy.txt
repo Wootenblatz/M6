@@ -1,0 +1,6 @@
+/castsequence reset=target/combat Outbreak, Unholy Blight, Unholy Blight
+/castsequence reset=combat [nochanneling] Festering Strike, Festering Strike, Scourge Strike, Epidemic
+/qsequence Lichborne, Army of the Dead
+/qsequence [@cursor] Anti-magic shell, Icebound Fortitude, Anti-Magic Zone
+/cast [mod:alt] Death Coil; [@player,nochanneling] Death and Decay
+/cast [mod:alt] Death Coil; Death Strike

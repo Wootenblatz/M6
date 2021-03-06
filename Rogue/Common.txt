@@ -1,0 +1,10 @@
+# Stun - Nonstealth
+/qsequence Sinister Strike, Kidney Shot, Sinister Strike, Sinister Strike, Sinister Strike
+# Stun - Stealth
+/qsequence Sinister Strike, Cheap Shot, Sinister Strike, Sinister Strike, Sinister Strike
+
+# DFTB1 - Alternate Assist Focus
+/assist focus
+/script SetView(3); SetView(3)
+/cast !Stealth
+

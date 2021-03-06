@@ -1,0 +1,13 @@
+# DFT
+/cast [nochanneling] Rapid Fire
+/cast [@cursor,nochanneling] Binding Shot
+/cast [@cursor,nochanneling] Resonating Arrow
+
+# DST
+/cast [nochanneling] Explosive Shot
+/cast [@cursor,nochanneling] Volley
+/castsequence [nochanneling] Double Tap, Steady Shot, Steady Shot
+/cast [nochanneling] Aimed Shot
+/qsequence [nochanneling] Steady Shot, Steady Shot, Arcane Shot, Multi-Shot
+
+

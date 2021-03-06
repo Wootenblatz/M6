@@ -1,0 +1,4 @@
+# Set your view number to whichever view you prefer - Omit this line in the macro
+/assist focus
+/script SetView(3); SetView(3)
+

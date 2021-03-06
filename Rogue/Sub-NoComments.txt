@@ -1,0 +1,12 @@
+/cast [nochanneling] Shadow Blades
+/cast [nochanneling] Echoing Reprimand
+/cast [nochanneling] Marked for Death
+/qsequence [nochanneling] Rupture, Eviscerate, Eviscerate, Eviscerate
+/castsequence !stealth, shadowstrike
+/qsequence Symbols of Death, Shadow Dance
+/castsequence Shadowstrike, Eviscerate
+/qsequence Backstab, Backstab, Eviscerate
+/cast [nochanneling] Eviscerate
+/qsequence [nochanneling] Shuriken Storm, Black Powder
+
+
