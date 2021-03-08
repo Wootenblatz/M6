@@ -19,3 +19,7 @@
 /qsequence Call Dreadstalkers, Shadow Bolt, Shadow Bolt, Hand of Gul'dan, Shadow bolt, Shadow Bolt
 /cast [nochanneling] Demonic Strength
 /cast [nochanneling] Hand of Gul'dan
+
+# General DPS rotation for main action bar
+/qsequence [nochanneling] Soul Strike, Call Dreadstalkers, Shadow Bolt, Hand of Gul'dan, Shadow Bolt
+
