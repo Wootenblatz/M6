@@ -1,8 +1,21 @@
+# CTRL DPS First Tier
 /cast [mod:alt,nochanneling] Demonbolt; [nochanneling] Soul Strike
-/qsequence [nochanneling] Covenant Ability, Felstorm
-/cast [mod:alt,nochanneling] Demonbolt; Hand of Gul'dan
-/qsequence Demonic Strength, Grimoire: Felguard, Summon Demonic Tyrant
-/cast [mod:alt,nochanneling] Shadow Bolt; Demonic Strength
-/cast [mod:alt,nochanneling] Shadow Bolt; Grimoire: Felguard
-/cast [mod:alt,nochanneling] Shadow Bolt; Summon Demonic Tyrant
-/qsequence [nochanneling] Soul Strike, Call Dreadstalkers, Felstorm, Shadow Bolt, Hand of Gul'dan, Covenant Ability, Demonbolt
+/cast [nochanneling] Call Dreadstalkers
+/cast [nochanneling] Shadow Bolt
+
+# CTRL DPS Second Tier
+/cast [nochanneling] Grimoire: Felguard
+/cast [nochanneling] Summon Demonic Tyrant
+/cast [nochanneling] Demonbolt
+
+# DPS First Tier
+# Assist focus; SetView
+/cast [nochanneling] Call Dreadstalkers
+/cast Felstorm
+/cast Demonbolt
+
+# DPS Second Tier
+/cast [mod:alt,nochanneling] Demonbolt; [nochanneling] Soul Strike
+/qsequence Call Dreadstalkers, Shadow Bolt, Shadow Bolt, Hand of Gul'dan, Shadow bolt, Shadow Bolt
+/cast [nochanneling] Demonic Strength
+/cast [nochanneling] Hand of Gul'dan
