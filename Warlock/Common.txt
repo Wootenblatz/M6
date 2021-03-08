@@ -1,13 +1,31 @@
 /cast [@cursor,nochanneling] Shadowfury
-/cast [mod:shift]Curse of Tongues;[mod:alt]Curse of Exhaustion;Curse of Weakness
 /cast [mod]Demonic Circle; Demonic Circle: Teleport
 /cast [@cursor,nochanneling] Demonic Gateway
 
 # Defensive CD
 /qsequence Healthstone, Unending Resolve
 
-# Stun
-/qsequence Incinerate, Shadowfury, Incinerate, Incinerate, Incinerate 
-
-
+# Soul well / Soulstone
 /cast [mod:shift] Create Soulwell; [@mouseover,help,nodead][@focus,exists,help,nodead][@target,exists,help,nodead][] Soulstone
+
+# Slow
+/qsequence Curse of Exhaustion, Mortal Coil
+
+# Stun  Slots  2-5
+/qsequence [@cursor] Curse of Exhaustion, Shadowfury, Shadow Bolt, Shadow Bolt, Shadow Bolt
+/qsequence [@cursor] Curse of Weakness, Shadow Bolt, Shadowfury, Shadow Bolt, Shadow Bolt
+/qsequence [@cursor] Curse of Tongues, Shadow Bolt, Shadow Bolt, Shadowfury, Shadow Bolt
+/qsequence [@cursor] Shadow Bolt, Shadow Bolt, Shadow Bolt, Shadow Bolt, Shadowfury
+
+
+
+# Warlock Interrupt Rotations Slot 2 through 5
+/qsequence Curse of Exhaustion, Command Pet, Shadow Bolt, Shadow Bolt, Shadow Bolt
+/qsequence Curse of Weakness, Shadow Bolt, Command Pet, Shadow Bolt, Shadow Bolt
+/qsequence Curse of Tongues, Shadow Bolt, Shadow Bolt, Command Pet, Shadow Bolt
+/qsequence Shadow Bolt, Shadow Bolt, Shadow Bolt, Shadow Bolt, Command Pet
+
+# Curses Slots 2 through 4
+/cast [mod:shift]Curse of Exhaustion;[mod:alt]Curse of Tongues ;Curse of Weakness
+/cast [mod:shift]Curse of Tongues;[mod:alt]Curse of Weakness;Curse of Exhaustion
+/cast [mod:shift]Curse of Weakness;[mod:alt]Curse of Exhaustion;Curse of Tongues
