@@ -1,0 +1,6 @@
+
+# T2B2 Cycleflag based holy shock
+/cast [flag:i=1,@party1] Holy Shock; [flag:i=2,@party2] Holy Shock;[flag:i=3,@party3] Holy Shock; [flag:i=4,@party4] Holy Shock;[@player] Holy Shock
+
+# T2B6 Updates cycleflag i
+/cycleflag i=5
