@@ -32,3 +32,8 @@
 # Cleanse/Purge - Key: 3
 /cast [@mouseover,exists,help,nodead][@target,exists,help,nodead][@focus,exists,help,nodead] Purify Spirit; Purge
 
+# Party Riptide
+/cast [flag:i=1,@party1] Riptide; [flag:i=2,@party2] Riptide;[flag:i=3,@party3] Riptide; [flag:i=4,@party4] Riptide;[@player] Riptide
+#  You must define this macro once per wow account in M6
+/cycleflag i=5
+
