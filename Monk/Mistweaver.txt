@@ -1,0 +1,1 @@
+/cast [flag:i=1,@party1] Renewing Mist; [flag:i=2,@party2] Renewing Mist;[flag:i=3,@party3] Renewing Mist; [flag:i=4,@party4] Renewing Mist;[@player] Renewing Mist
