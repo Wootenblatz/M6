@@ -1,2 +1,2 @@
 /cast [@cursor,nochanneling] Binding Shot
-/cast [@cursor,nochanneling] Resonating Arrow
+/cast [@cursor,nochanneling] Covenant Ability
