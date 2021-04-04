@@ -1,1 +1,30 @@
-/cast [flag:i=1,@party1] Renewing Mist; [flag:i=2,@party2] Renewing Mist;[flag:i=3,@party3] Renewing Mist; [flag:i=4,@party4] Renewing Mist;[@player] Renewing Mist
+# Focus heal button (A)
+/qsequence [@mouseover,exists,help,nodead][@target,exists,help,nodead][@focus,exists,help,nodead][@player] Thunder Focus Tea, Renewing Mist, Soothing Mist, Enveloping Mist, Vivify, Vivify, Life Cocoon
+
+# Expel harm isn't a party heal but I put it in here to get it in every so often
+# Mouse/Target/Focus parameters are in here because I'm lazy and might add something else to this later
+# that can make use of those (T1B3)
+/qsequence [@mouseover,exists,help,nodead,nochanneling][@target,exists,help,nodead,nochanneling][@focus,exists,help,nodead,nochanneling][@player,nochanneling] Refreshing Jade Wind, Chi Wave, Essence Font, Expel Harm
+
+# Spread renewing mist around the party.
+# (T1B2)
+/cast [flag:i=1,@party1,nochanneling] Renewing Mist; [flag:i=2,@party2,nochanneling] Renewing Mist;[flag:i=3,@party3,nochanneling] Renewing Mist; [flag:i=4,@party4,nochanneling] Renewing Mist;[@player,nochanneling] Renewing Mist
+
+# (T1B5) - To trigger rising mist procs
+/cast [nochanneling] Rising Sun Kick
+
+# You must define this macro once per wow account in M6.  
+# This must be pressed every time you want Renewing Mist to move to the next @partyX
+# (T1B6)
+/cycleflag i=5
+
+# (T2B2)
+/cast [@cursor,nochanneling] Covenant Ability
+# (T2B5)
+/qsequence [nochanneling] Tiger Palm, Tiger Palm, Tiger Palm, Blackout Kick, Rising Sun Kick
+
+# Triple interrupt rotation to make use of leg sweep, paralysis and ring of peace (V)
+/qsequence [@player] Tiger Palm, Blackout Kick, Tiger Palm, Blackout Kick, Leg Sweep, Tiger Palm, Blackout Kick, Tiger Palm, Blackout Kick, Paralysis, Tiger Palm, Blackout Kick, Tiger Palm, Blackout Kick, Ring of Peace
+
+#  (3)
+/cast [@mouseover,exists,help,nodead,nochanneling][@target,exists,help,nodead,nochanneling][@focus,exists,help,nodead,nochanneling][@player,nochanneling] Vivify
