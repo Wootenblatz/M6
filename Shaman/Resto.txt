@@ -15,7 +15,7 @@
 # Mouse->Target->Focus->Player (Single Target Heal) - DFT (Buttons 2-5)
 /qsequence [@mouseover,exists,help,nodead][@target,exists,help,nodead][@focus,exists,help,nodead][@player] Riptide, Unleash Life, Healing Wave, Healing Wave
 
-# Cursor->Mouse->Target->Focus->Player - Key: 2 (Full Party Heal)
+# Mouse->Target->Focus->Player->Cursor - Key: 2 (Full Party Heal)
 /qsequence [@mouseover,exists,help,nodead][@target,exists,help,nodead][@focus,exists,help,nodead][@player][@cursor] Downpour, Healing Rain,Chain Heal, Healing Tide Totem,Chain Heal, Spirit Link Totem,Chain Heal, Earthen Wall Totem,Chain Heal, Wellspring,Chain Heal
 
 # AOE Heals - DST (Button 5) + DFT (Button 6)
@@ -23,6 +23,7 @@
 
 # DPS - Second Tier (Button 1)
 /castsequence reset=target/combat/18 [nochanneling] Flame Shock, Lava Burst, Lava Burst, Lava Burst, Lava Burst, Lava Burst
+
 # DPS - Second Tier (Button 6)
 /qsequence [nochanneling] Lightning Bolt, Chain Lightning
 
