@@ -1,0 +1,32 @@
+# T1B2
+/cast [nochanneling] Pillar of Frost
+# T1B5
+/qsequence [nochanneling] Obliterate, Howling Blast
+# T1B6
+/castsequence reset=target/combat [nochanneling] Chains of Ice, Death Strike, Death Strike, Death Strike, Death Strike
+
+# T2B1
+/cast [nochanneling] Remorseless Winter
+# T2B2
+/cast [mod:alt] Death Coil; [@player,nochanneling] Death and Decay
+# T2B5
+/qsequence [nochanneling] Obliterate, Howling Blast
+# T2B6
+/cast [mod:alt] Death Coil; Death Strike
+
+
+/cast [@player,nochanneling] Anti-Magic Zone
+
+# Stun button (C)
+/qsequence Death Grip, Death Coil, Death Strike, Frost Strike, Obliterate
+/qsequence Death Coil, Death Grip, Death Strike, Frost Strike, Obliterate
+/qsequence Death Coil, Death Strike, Death Grip, Frost Strike, Obliterate
+/qsequence Death Coil, Death Strike, Frost Strike, Death Grip, Obliterate
+/qsequence Death Coil, Death Strike, Frost Strike, Obliterate, Death Grip
+
+# Interrupt Button (V)
+/qsequence Mind Freeze, Death Coil, Death Strike, Frost Strike, Obliterate
+/qsequence Death Coil, Mind Freeze, Death Strike, Frost Strike, Obliterate
+/qsequence Death Coil, Death Strike, Mind Freeze, Frost Strike, Obliterate
+/qsequence Death Coil, Death Strike, Frost Strike, Mind Freeze, Obliterate
+/qsequence Death Coil, Death Strike, Frost Strike, Obliterate, Mind Freeze 
