@@ -5,7 +5,7 @@
 /castsequence reset=combat !stealth, garrote, ambush
 
 # T2B6 - Builders
-/castsequence reset=target/combat Siphon Life, Corruption, Agony, Unstable Affliction, Covenant Ability,  Drain Soul
+/castsequence reset=target/combat Garrote, Fan of Knives, Mutilate
 
 #AOE
 /qsequence Garrote, Crimson Tempest, Fan of Knives, Rupture, Fan of Knives, Rupture, Fan of Knives, Rupture, Fan of Knives, Envenom
