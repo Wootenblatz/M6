@@ -1,0 +1,15 @@
+# T1B6 - Finishers
+/castsequence reset=combat Envenom, Kidney Shot, Rupture, Slice and Dice
+
+# T2B1
+/castsequence reset=combat !stealth, garrote, ambush
+
+# T2B6 - Builders
+/castsequence reset=target/combat Siphon Life, Corruption, Agony, Unstable Affliction, Covenant Ability,  Drain Soul
+
+#AOE
+/qsequence Garrote, Crimson Tempest, Fan of Knives, Rupture, Fan of Knives, Rupture, Fan of Knives, Rupture, Fan of Knives, Envenom
+
+
+# Rotation
+/qsequence !stealth, ambush, cheap shot, garrote, fan of knives, mutilate, rupture, garrote, mutilate, shiv, envenom
